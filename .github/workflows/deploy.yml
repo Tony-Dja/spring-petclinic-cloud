@@ -128,8 +128,7 @@ jobs:
         #kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/api-gateway-deployment.yaml
         #kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/customers-service-deployment.yaml
         #kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/vets-service-deployment.yaml
-        #kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/visits-service-deployment.yaml
-
+        #kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/visits-service-deployment.yaml                         
         kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/init-services/02-config-map.yaml
         kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/init-services/02-system-config-map.yaml
         kubectl apply -f https://raw.githubusercontent.com/Tony-Dja/spring-petclinic-cloud/camille/k8s/init-services/03-role.yaml
